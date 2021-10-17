@@ -1,0 +1,138 @@
+/* POLICES 	Logo et titres : Shrikhand
+			Texte : Roboto*/
+
+@font-face
+{
+    font-family: 'shrikhand';
+    src: url('polices/shrikhand/shrikhand-regular-webfont.eot');
+    src: url('polices/shrikhand/shrikhand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/shrikhand/shrikhand-regular-webfont.woff2') format('woff2'),
+         url('polices/shrikhand/shrikhand-regular-webfont.woff') format('woff'),
+         url('polices/shrikhand/shrikhand-regular-webfont.ttf') format('truetype'),
+         url('polices/shrikhand/shrikhand-regular-webfont.svg#shrikhandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'roboto';
+    src: url('polices/roboto/Roboto-Regular-webfont.eot');
+    src: url('polices/roboto/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/roboto/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('polices/roboto/Roboto-Regular-webfont.woff') format('woff'),
+         url('polices/roboto/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('polices/roboto/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+/* Primaire : #9356DC  Violet
+Secondaire : #FF79DA  Rose
+Tertiaire :  #99E2D0   Bleu */
+
+/* GENERALE */
+
+body
+{
+	background-color: white;
+    color: black;
+    margin: auto;
+    min-width: 375px;
+    font-family: roboto, serif;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+/* HEADER */
+
+header
+{
+    text-align: center;
+}
+
+header img
+{
+    width: 45%;
+    padding: 15px 0 10px 0;
+}
+
+
+
+
+
+
+
+/* ADRESSE */
+
+#adresse
+{
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+#adresse div
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#adresse i
+{
+    position: absolute;
+    top: 18px;
+    right: 120px;
+}
+
+
+
+
+
+
+/* EXPLORER */
+
+#explorer
+{
+    background-color: #F6F6F6;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 60px;
+}
+
+#explorer h1
+{
+    margin: 20px 15% 0 15%;
+}
+
+#explorer p
+{
+    margin: 5px 5% 35px 5%;
+}
+
+#explorer a
+{
+    background-color: #BD64DB;
+    color: white;
+    padding: 12px 20px 12px 20px;
+    border-radius: 30px;
+    font-size: 1em;
+}
