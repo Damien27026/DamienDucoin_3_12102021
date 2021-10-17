@@ -136,3 +136,181 @@ header img
     border-radius: 30px;
     font-size: 1em;
 }
+
+
+
+
+
+
+/* FONCTIONNEMENT */
+
+#fonctionnement
+{
+    padding: 15px 0 40px 0;
+}
+
+#fonctionnement h2
+{
+    margin-left: 20px;
+}
+
+.etape
+{
+    display: flex;
+    position: relative;
+    margin: 15px 20px 15px 30px;
+    padding: 5px 0 5px 20px;
+    border-radius: 15px;
+    background-color: #F6F6F6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.nombre
+{
+    position: absolute;
+    left: -12px;
+    padding: 0 6px 0 6px;
+    background-color: #9356dc;
+    color: white;
+    border-radius: 100%;
+}
+
+.etape i
+{
+    padding: 20px 20px 0 10px;
+    color: #7E7E7E;
+}
+
+
+
+
+
+
+/* RESTAURANTS */
+
+#restaurants
+{
+    background-color: #F6F6F6;
+    padding: 20px 20px 40px 20px;
+}
+
+.choix_restaurants
+{
+    position: relative;
+    margin: 0 0 20px 0;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.nouveau
+{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    background-color: #99e2d0;
+    color: #008766;
+}
+
+.nouveau p
+{
+    margin: 3px 10px 3px 10px;
+}
+
+#restaurants img
+{
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.text_restaurants
+{
+    background-color: white;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    padding: 1px 0px 15px 15px;
+}
+
+.text_restaurants h3
+{
+   margin: 5px 0 0 0; 
+}
+
+.text_restaurants p
+{
+    margin: 5px 0 0 0;
+}
+
+.fa-heart
+{
+    position: absolute;
+    font-size: 1.5em;
+    top: 20px;
+    right: 25px;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+footer
+{
+    background-color: #353535;
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer h2
+{
+    font-family: shrikhand, sans-serif;
+    padding: 25px 0 0 25px;
+    font-size: 1.1em;
+    margin: 5px 0 20px 0;
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0 0 0 25px;
+    margin: 0;
+}
+
+li
+{
+    display: flex;
+    margin-bottom: 8px;
+}
+
+li i
+{
+    margin-right: 15px;
+    font-size: 0.8em;
+}
+
+li p
+{
+    margin: 0;
+}
+
+.fa-hands-helping
+{
+    font-size: 0.7em;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
