@@ -1,0 +1,79 @@
+/* ADRESSE */
+
+#adresse p {
+	font-size: 1.2em;
+	margin: 10px 0 10px 0;
+}
+
+#adresse i {
+	font-size: 1.2em;
+	top: 14px;
+	right: 140px;
+}
+
+
+
+
+
+
+
+/* EXPLORER */
+
+#explorer h1 {
+	font-size: 1.8em;
+}
+
+#explorer p {
+	font-size: 1.1em;
+	margin: 5px 10% 35px 10%;
+}
+
+#explorer a {
+	font-size: 1.3em;
+	padding: 12px 20px 12px 20px;
+}
+
+
+
+
+
+
+
+
+/* RESTAURANTS */
+
+#restaurants h2 {
+	font-size: 1.8em;
+}
+
+.nouveau p {
+	margin: 3px 10px 3px 10px;
+	font-size: 1.2em;
+}
+
+.text_restaurants h3 {
+	font-size: 1.3em;
+ }
+
+.text_restaurants p {
+	font-size: 1.1em;
+}
+
+.fa-heart {
+	font-size: 1.8em;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer h2 {
+	font-size: 1.3em;
+}

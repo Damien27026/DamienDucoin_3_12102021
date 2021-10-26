@@ -4,28 +4,35 @@
 @font-face
 {
     font-family: 'shrikhand';
-    src: url('polices/shrikhand/shrikhand-regular-webfont.eot');
-    src: url('polices/shrikhand/shrikhand-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('polices/shrikhand/shrikhand-regular-webfont.woff2') format('woff2'),
-         url('polices/shrikhand/shrikhand-regular-webfont.woff') format('woff'),
-         url('polices/shrikhand/shrikhand-regular-webfont.ttf') format('truetype'),
-         url('polices/shrikhand/shrikhand-regular-webfont.svg#shrikhandregular') format('svg');
+    src: url('../polices/shrikhand/shrikhand-regular-webfont.eot');
+    src: url('../polices/shrikhand/shrikhand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../polices/shrikhand/shrikhand-regular-webfont.woff2') format('woff2'),
+         url('../polices/shrikhand/shrikhand-regular-webfont.woff') format('woff'),
+         url('../polices/shrikhand/shrikhand-regular-webfont.ttf') format('truetype'),
+         url('../polices/shrikhand/shrikhand-regular-webfont.svg#shrikhandregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face
 {
-    font-family: 'roboto';
-    src: url('polices/roboto/Roboto-Regular-webfont.eot');
-    src: url('polices/roboto/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('polices/roboto/Roboto-Regular-webfont.woff2') format('woff2'),
-         url('polices/roboto/Roboto-Regular-webfont.woff') format('woff'),
-         url('polices/roboto/Roboto-Regular-webfont.ttf') format('truetype'),
-         url('polices/roboto/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-family: 'robotoregular';
+    src: url('../polices/roboto/Roboto-Regular-webfont.eot');
+    src: url('../polices/roboto/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../polices/roboto/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('../polices/roboto/Roboto-Regular-webfont.woff') format('woff'),
+         url('../polices/roboto/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../polices/roboto/Roboto-Regular-webfont.svg#robotoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
+
+
+
+
+
+
+
 
 
 
@@ -46,7 +53,7 @@ body
     color: black;
     margin: auto;
     min-width: 375px;
-    font-family: roboto, serif;
+    font-family: 'robotoregular', serif;
 }
 
 a
@@ -88,7 +95,9 @@ header img
     display: flex;
     justify-content: center;
     margin-bottom: 0;
+    box-shadow: 0 5px 5px -5px inset rgba(0, 0, 0, 0.35);
 }
+
 #adresse div
 {
     display: flex;
@@ -130,7 +139,7 @@ header img
 
 #explorer a
 {
-    background-color: #BD64DB;
+    background: linear-gradient(#FF79DA, 30%, #9356DC);
     color: white;
     padding: 12px 20px 12px 20px;
     border-radius: 30px;
@@ -219,7 +228,7 @@ header img
 #restaurants img
 {
     width: 100%;
-    height: 190px;
+    height: 165px;
     object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
