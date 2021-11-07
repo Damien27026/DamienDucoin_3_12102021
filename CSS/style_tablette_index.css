@@ -40,6 +40,33 @@
 
 
 
+/* FONCTIONNEMENT */
+
+.choisir {
+    width: 50%;
+}
+
+.composer {
+    width: 50%;
+    margin-left: 20%;
+}
+
+.déguster {
+    width: 50%;
+    margin-left: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* RESTAURANTS */
 
 #restaurants h2 {

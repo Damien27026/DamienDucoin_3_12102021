@@ -192,9 +192,6 @@ header img
 
 
 
-
-
-
 /* RESTAURANTS */
 
 #restaurants
@@ -293,6 +290,7 @@ ul
 
 li
 {
+    color: white;
     display: flex;
     margin-bottom: 8px;
 }
