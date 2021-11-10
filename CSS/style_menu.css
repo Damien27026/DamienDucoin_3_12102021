@@ -145,6 +145,11 @@ header i
     margin: 0 0 40px 0;
 }
 
+.underline {
+    border-bottom: 0.25em solid #99E2D0;
+    padding-bottom: 3px;
+}
+
 .choix_menus
 {
     position: relative;

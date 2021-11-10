@@ -1,0 +1,10 @@
+.wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.choix_menus {
+	margin-right: 15px;
+	width: 47%;
+}
