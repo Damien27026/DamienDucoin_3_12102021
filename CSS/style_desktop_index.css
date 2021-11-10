@@ -1,0 +1,21 @@
+/* RESTAURANTS */
+
+#restaurant__choix {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#restaurant__choix a {
+	width: 49%;
+	margin-right: 10px;
+}
+
+
+
+
+
+/* FONCTIONNEMENT */
+
+.etape {
+	width: 28%;
+}
