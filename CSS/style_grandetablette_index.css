@@ -3,12 +3,10 @@
 /* ADRESSE */
 
 #adresse p {
-	font-size: 1.4em;
 	margin: 10px 0 10px 0;
 }
 
 #adresse i {
-	font-size: 1.3em;
 	top: 14px;
 	right: 160px;
 }
@@ -24,16 +22,13 @@
 /* EXPLORER */
 
 #explorer h1 {
-	font-size: 2em;
 }
 
 #explorer p {
-	font-size: 1.3em;
 	margin: 5px 10% 35px 10%;
 }
 
 #explorer a {
-	font-size: 1.5em;
 	padding: 12px 25px 12px 25px;
 }
 
@@ -48,7 +43,7 @@
 /* FONCTIONNEMENT */
 
 #fonctionnement h2 {
-	font-size: 1.5em;
+	font-size: 1.4em;
  }
 
 #fonctionnement_etape {
@@ -72,9 +67,9 @@
 /* FOOTER */
 
 footer h2 {
-	font-size: 1.6em;
+	font-size: 1.3em;
 }
 
 footer li {
-	font-size: 1.2em;
+	font-size: 1em;
 }

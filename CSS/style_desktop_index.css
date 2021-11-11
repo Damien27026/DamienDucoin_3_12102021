@@ -1,13 +1,19 @@
 /* RESTAURANTS */
 
+#restaurants h2 {
+	margin-left: 75px;
+}
+
 #restaurant__choix {
 	display: flex;
 	flex-wrap: wrap;
+	width: 90%;
+	margin: auto;
 }
 
 #restaurant__choix a {
-	width: 49%;
-	margin-right: 10px;
+	width: 48%;
+	margin-right: 17px;
 }
 
 

@@ -1,0 +1,29 @@
+/* MENUS */
+
+#page img {
+	max-height: 715px;
+}
+
+#column {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+}
+
+.wrap {
+	flex-direction: column;
+}
+
+#entrées, #plats, #dessert {
+	margin: 0 90px 40px 10px;
+}
+
+.choix_menus {
+	width: 125%;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+
+.choix_menus p {
+	width: 80%;
+}
