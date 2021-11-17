@@ -1,3 +1,13 @@
+/* SPINNER */
+
+#spinner__bar_box {
+	width: 10%;
+}
+
+
+
+
+
 /* RESTAURANTS */
 
 #restaurants h2 {
@@ -24,4 +34,8 @@
 
 .etape {
 	width: 28%;
+}
+
+#fonctionnement h2 {
+	margin-left: 75px;
 }

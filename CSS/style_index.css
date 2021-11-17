@@ -68,6 +68,93 @@ a
 
 
 
+/* SPINNER */
+
+#spinner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    animation: load 2.5s both;
+    opacity: 1;
+    z-index: 1;
+}
+
+#spinner__bar_box {
+    width: 25%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.spinner__bar {
+    width: 15%;
+    height: 0%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    animation: mouvement 2s ease-in-out;
+}
+
+.bar_1 {
+    background: #9356DC;
+}
+
+.bar_2 {
+    background: #FF79DA;
+    animation-delay: 0.25s;
+}
+
+.bar_3 {
+    background: #99E2D0;
+    animation-delay: 0.5s;
+}
+
+#spinner p {
+    font-family: shrikhand;
+    font-size: 2em;
+    margin: 0;
+}
+
+@keyframes load {
+    99% {
+        opacity: 1;
+        z-index: 1;
+    }
+    100% {
+        opacity: 0;
+        z-index: -10;
+    }
+}
+
+@keyframes mouvement {
+    from {
+        height: 0%;
+    }
+    25% {
+        height: 75%;
+    }
+    50% {
+        height: 0%;
+    }
+    75% {
+        height: 50%;
+    }
+    to {
+        height: 0%;
+    }
+}
+
+
+
+
+
+
 /* HEADER */
 
 header
@@ -263,8 +350,6 @@ header img
     font-size: 1.5em;
     top: 20px;
     right: 25px;
-    opacity: 1;
-    transition: opacity 1.5s;
 }
 
 .heart--bg {
@@ -273,16 +358,15 @@ header img
     top: 20px;
     right: 25px;
     opacity: 0;
-    transition: opacity 1.5s;
-
-}
-
-.fa-heart:hover {
-    opacity: 0;
+    transition: opacity 0.5s;
+    color: transparent;
+    background: linear-gradient(#FF79DA, 44%, #9356DC);
+    background-clip: text;
 }
 
 .heart--bg:hover {
     opacity: 1;
+
 }
 
 

@@ -128,11 +128,9 @@ header i
 .fa-heart
 {
     position: absolute;
+    font-size: 1.6em;
     top: 40px;
     right: 40px;
-    font-size: 1.6em;
-    opacity: 1;
-    transition: opacity 1.5s;
 }
 
 .heart--bg {
@@ -141,16 +139,15 @@ header i
     top: 40px;
     right: 40px;
     opacity: 0;
-    transition: opacity 1.5s;
-
-}
-
-.fa-heart:hover {
-    opacity: 0;
+    transition: opacity 1s;
+    color: transparent;
+    background: linear-gradient(#FF79DA, 44%, #9356DC);
+    background-clip: text;
 }
 
 .heart--bg:hover {
     opacity: 1;
+    
 }
 
 #menu h2
@@ -163,7 +160,18 @@ header i
 
 #entrées, #plats, #dessert
 {
+    opacity: 0;
     margin: 0 0 40px 0;
+    animation: column 2s;
+    animation-fill-mode: both;
+}
+
+#plats {
+    animation-delay: 0.5s;
+}
+
+#dessert {
+    animation-delay: 1s;
 }
 
 .underline {
@@ -185,12 +193,14 @@ header i
     margin: 0;
     padding: 10px 0 0 10px;
     font-size: 1em;
+    overflow: hidden;
 }
 
 .choix_menus p
 {
     margin: 0;
     padding: 0 0 10px 10px;
+    overflow: hidden;
 }
 
 .prix
@@ -218,10 +228,34 @@ header i
     text-align: center;
 }
 
+@keyframes column {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
+#check {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 75px;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #99E2D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: right 0.5s ease-in-out;
+}
 
-
-
+#check:hover {
+    right: 0;
+}
 
 
 

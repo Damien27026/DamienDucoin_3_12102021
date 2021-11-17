@@ -27,3 +27,11 @@
 .choix_menus p {
 	width: 80%;
 }
+
+#menu {
+	height: 20%;
+}
+
+#menu h1 {
+	margin-left: 10%;
+}
