@@ -181,11 +181,20 @@ header i
 
 .choix_menus
 {
+    display: flex;
     position: relative;
     background-color: white;
     border-radius: 15px;
     margin: 0 0 15px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.20);
+    overflow: hidden;
+}
+
+.nom {
+    width: 90%;
+    transition: width 1s;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .choix_menus h3
@@ -194,6 +203,7 @@ header i
     padding: 10px 0 0 10px;
     font-size: 1em;
     overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .choix_menus p
@@ -201,13 +211,48 @@ header i
     margin: 0;
     padding: 0 0 10px 10px;
     overflow: hidden;
+    text-overflow: ellipsis;
+    width: 95%;
 }
 
-.prix
-{
+.prix {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 10%;
+    padding: 0 15px 10px 0;
+}
+
+#check {
     position: absolute;
-    bottom: 10px;
-    right: 20px;
+    background: #99e2d0;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    right: -25%;
+    transition: right 1s;
+}
+
+#check i {
+    transform: rotate(360deg);
+    transition: transform 1s;
+    font-size: 1.3em;
+    color: white;
+}
+
+.choix_menus:hover #check i {
+    transform: rotate(0deg);
+}
+
+.choix_menus:hover #check {
+    right: 0;
+}
+
+.choix_menus:hover .nom {
+    width: 64%;
 }
 
 #page a {
@@ -235,26 +280,6 @@ header i
     to {
         opacity: 1;
     }
-}
-
-#check {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 75px;
-    height: 100%;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background: #99E2D0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    transition: right 0.5s ease-in-out;
-}
-
-#check:hover {
-    right: 0;
 }
 
 
