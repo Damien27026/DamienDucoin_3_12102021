@@ -350,6 +350,8 @@ header img
     font-size: 1.5em;
     top: 20px;
     right: 25px;
+    opacity: 1;
+    transition: opacity 0.5s;
 }
 
 .heart--bg {
@@ -362,6 +364,11 @@ header img
     color: transparent;
     background: linear-gradient(#FF79DA, 44%, #9356DC);
     background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.heart--bg:hover .fa-heart {
+    opacity: 0;
 }
 
 .heart--bg:hover {

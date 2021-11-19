@@ -61,8 +61,6 @@ a
 
 
 
-
-
 /* HEADER */
 
 header
@@ -131,6 +129,8 @@ header i
     font-size: 1.6em;
     top: 40px;
     right: 40px;
+    opacity: 1;
+    transition: opacity 0.5s;
 }
 
 .heart--bg {
@@ -143,6 +143,11 @@ header i
     color: transparent;
     background: linear-gradient(#FF79DA, 44%, #9356DC);
     background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.heart--bg:hover .fa-heart {
+    opacity: 0;
 }
 
 .heart--bg:hover {
@@ -329,6 +334,10 @@ li i
 li p
 {
     margin: 0;
+}
+
+footer a {
+    color: white;
 }
 
 .fa-hands-helping
