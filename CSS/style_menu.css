@@ -228,7 +228,7 @@ header i
     padding: 0 15px 10px 0;
 }
 
-#check {
+.check {
     position: absolute;
     background: #99e2d0;
     width: 25%;
@@ -241,18 +241,18 @@ header i
     transition: right 1s;
 }
 
-#check i {
+.check i {
     transform: rotate(360deg);
     transition: transform 1s;
     font-size: 1.3em;
     color: white;
 }
 
-.choix_menus:hover #check i {
+.choix_menus:hover .check i {
     transform: rotate(0deg);
 }
 
-.choix_menus:hover #check {
+.choix_menus:hover .check {
     right: 0;
 }
 
@@ -321,7 +321,6 @@ ul
 
 li
 {
-    display: flex;
     margin-bottom: 8px;
 }
 
@@ -338,6 +337,7 @@ li p
 
 footer a {
     color: white;
+    display: flex;
 }
 
 .fa-hands-helping

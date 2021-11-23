@@ -115,7 +115,7 @@ a
     animation-delay: 0.5s;
 }
 
-#spinner p {
+#spinner h2 {
     font-family: shrikhand;
     font-size: 2em;
     margin: 0;
@@ -199,6 +199,11 @@ header img
     right: 120px;
 }
 
+#adresse h2 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
 
 
 
@@ -265,6 +270,14 @@ header img
     border-radius: 15px;
     background-color: #F6F6F6;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.etape--violet {
+    background-color: #f5edff;
+}
+
+#i--violet {
+    color: #9356dc;
 }
 
 .nombre
@@ -405,8 +418,6 @@ ul
 
 li
 {
-    color: white;
-    display: flex;
     margin-bottom: 8px;
 }
 
@@ -419,6 +430,11 @@ li i
 li p
 {
     margin: 0;
+}
+
+footer a {
+    color: whitesmoke;
+    display: flex;
 }
 
 .fa-hands-helping
